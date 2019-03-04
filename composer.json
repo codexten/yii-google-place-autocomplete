@@ -6,6 +6,10 @@
     "codexten",
     "yii2"
   ],
+  "require": {
+    "codexten/yii-web": "~2.0",
+    "2amigos/yii2-google-maps-library": "*"
+  },
   "autoload": {
     "psr-4": {
       "codexten\\yii\\google\\place\\autocomplete\\": "src"
@@ -15,7 +19,7 @@
     "branch-alias": {
       "dev-master": "2.0.x-dev"
     },
-    "sconfig-plugin": {
+    "config-plugin": {
       "googlePlaceAutocomplete": "config/googlePlaceAutocomplete.php"
     }
   }
