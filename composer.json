@@ -1,0 +1,22 @@
+{
+  "name": "codexten/yii-google-place-autocomplete",
+  "type": "yii2-extension",
+  "description": "Google Place Autocomplete for yii 2.0 or higher",
+  "keywords": [
+    "codexten",
+    "yii2"
+  ],
+  "autoload": {
+    "psr-4": {
+      "codexten\\yii\\google\\place\\autocomplete\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "sconfig-plugin": {
+      "googlePlaceAutocomplete": "config/googlePlaceAutocomplete.php"
+    }
+  }
+}
