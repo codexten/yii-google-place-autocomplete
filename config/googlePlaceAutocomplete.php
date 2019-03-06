@@ -24,7 +24,6 @@ return [
                         'key' => $params['google.apiKey'],
                         'language' => 'id',
                         'version' => '3.1.18',
-                        'sensor' => 'false',
                     ],
                 ],
             ],
